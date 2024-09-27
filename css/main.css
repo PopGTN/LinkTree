@@ -1,3 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--body-bg) !important;
+}
+
+#main, #main-container {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
 .profile-pic {
     width: 100px;
     height: 100px;
@@ -15,10 +30,12 @@
   color: aliceblue;
 }
 
+
 .bkgrd-image {
   background: url("/Assets/photos/bkgrd-img1.jpg");
   background-repeat:no-repeat;
   background-size: cover;
+  flex: 1 0 auto;
 }
 
 .bg-trans-black {
