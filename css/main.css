@@ -46,7 +46,7 @@ footer {
 .btn {
     transition: transform 10s;
 }
-.btn:hover , .bi:hover{
+.btn-shake:hover , .bi:hover{
     animation: shake 1.2s;
     /* animation: shake 1s; */
     animation-iteration-count: infinite;
